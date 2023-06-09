@@ -31,7 +31,43 @@
     </ol>
     <h2>出力結果</h2>
     <div class="fizz_buzz">
-        <!-- ここに出力させる -->
+        <script>            
+            var i = 0;
+            for (i = 1; i <= 100; i++)
+            {
+                if (i % 3 === 0)
+                {
+                    document.write("<p>" + "Buzz" + "</p>");
+                }
+                else if (i % 5 === 0)
+                {
+                    document.write("<p>" + "FizzBuzz" + "</p>");
+                }
+                else document.write("<p>" + "Fizz" + "</p>");
+            }
+            
+            
+            /* sample
+            var i = 0;
+            for (i = 1; i <=100; i++) 
+            {
+                if (i % 15 === 0 ) 
+                {
+                    document.write("<p>" + "FizzBuzz" + "</p>");
+                } 
+                else if(i % 3 === 0) 
+                {
+                    document.write("<p>" + "Fizz" + "</p>");
+                } 
+                else if(i % 5 === 0 ) 
+                {
+                    document.write("<p>" + "Buzz" + "</p>");
+                } 
+                else document.write("<p>" + i + "</p>");
+            }
+            */
+            
+        </script>
     </div>
     
 </body>
